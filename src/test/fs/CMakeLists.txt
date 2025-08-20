@@ -10,7 +10,8 @@ if(${WITH_CEPHFS})
     test_trim_caps.cc
   )
   target_link_libraries(ceph_test_trim_caps
-      ceph-common
+PRIVATE
+ceph-common
       cephfs
   )
   install(TARGETS ceph_test_trim_caps DESTINATION ${CMAKE_INSTALL_BINDIR})

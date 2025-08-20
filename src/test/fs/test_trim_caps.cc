@@ -14,7 +14,7 @@
 #include <unistd.h>
 #include <include/cephfs/libcephfs.h>
 
-int main(int argc, char *argv[]) 
+int main(int argc, char *argv[])
 {
 	char buf;
 	int pipefd[2];

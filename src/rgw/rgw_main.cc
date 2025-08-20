@@ -63,7 +63,7 @@ static int usage()
  */
 // coverity[root_function:SUPPRESS]
 int main(int argc, char *argv[])
-{ 
+{
   int r{0};
 
   // dout() messages will be sent to stderr, but FCGX wants messages on stdout
